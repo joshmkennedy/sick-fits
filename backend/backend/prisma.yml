@@ -1,0 +1,6 @@
+endpoint: https://sick-fits-server-fbad2b7eca.herokuapp.com/prod/stage
+datamodel: datamodel.prisma
+
+generate:
+  - generator: javascript-client
+    output: ./generated/prisma-client/
